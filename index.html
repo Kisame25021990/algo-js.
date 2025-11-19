@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Age Checker</title>
+</head>
+<body>
+  <h1>Welcome!</h1>
+  <p>Open the console to test your age.</p>
+
+  <script>
+    let age = prompt("Please enter your age:");
+    age = parseInt(age);
+
+    if (isNaN(age)) {
+      alert("That's not a valid number!");
+    } else if (age >= 18) {
+      alert("You are an adult");
+    } else {
+      alert("You are not yet an adult");
+    }
+  </script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
